@@ -45,8 +45,8 @@ const runCpp = (code) => {
 
     const cleanup = () => {
       try {
-        if (fs.existsSync(javaFilePath)) fs.unlinkSync(javaFilePath)
-        if (fs.existsSync(classFilePath)) fs.unlinkSync(classFilePath)
+        if (fs.existsSync(cppFilePath)) fs.unlinkSync(cppFilePath)
+        if (fs.existsSync(exeFilePath)) fs.unlinkSync(exeFilePath)
       } catch (err) {
         console.error("Error cleaning up files:", err.message)
       }
