@@ -4,11 +4,11 @@
 
 ---
 
-A modern, full-stack web application for writing, compiling, and running Java code directly in your browser. Built with React, Express, and Node.js.
+A modern, full-stack web application for writing, compiling, and running C++ code directly in your browser. Built with React, Express, and Node.js.
 
 ## 🚀 Features
 
-- Syntax-highlighted Java code editor (powered by Monaco/React)
+- Syntax-highlighted C++ code editor (powered by Monaco/React)
 - Real-time code compilation and output
 - Error and runtime feedback
 - Responsive, dynamic UI
@@ -40,14 +40,14 @@ A modern, full-stack web application for writing, compiling, and running Java co
 
 ### Prerequisites
 - Node.js (v16+)
-- gcc g++
+- g++
 
 ### Installation
 
 ```bash
 # Clone the repository
 $ git clone https://github.com/joemrnice/cpp-code-editor.git
-$ cd java-code-editor
+$ cd cpp-code-editor
 
 # Install server dependencies
 $ cd server && npm install
@@ -73,7 +73,7 @@ Visit [http://localhost:5173](http://localhost:5173) to use the editor.
 ## 📁 Project Structure
 
 ```
-java-code-editor/
+cpp-code-editor/
 ├── server/         # Express backend for C++ code execution
 │   ├── app.js
 │   ├── routes/
